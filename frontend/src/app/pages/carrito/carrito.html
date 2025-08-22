@@ -1,0 +1,51 @@
+<section id="carrito-compras">
+    <h2>Tu Carrito de Compras</h2>
+    <div class="carrito-container">
+
+        <div class="carrito-items">
+            <div class="carrito-item">
+                <img src="https://via.placeholder.com/100/8a5f3e/ffffff?text=Arábica" alt="Café Arábica">
+                <div class="item-info">
+                    <h3>Café Arábica Premium</h3>
+                    <p class="item-precio">$12.50</p>
+                    <div class="item-cantidad">
+                        <label for="cantidad-arabica">Cantidad:</label>
+                        <input type="number" id="cantidad-arabica" value="1" min="1">
+                    </div>
+                </div>
+                <button class="btn-eliminar">&times;</button>
+            </div>
+
+            <div class="carrito-item">
+                <img src="https://via.placeholder.com/100/a6846a/ffffff?text=Mezcla" alt="Mezcla de la Casa">
+                <div class="item-info">
+                    <h3>Mezcla de la Casa</h3>
+                    <p class="item-precio">$10.00</p>
+                    <div class="item-cantidad">
+                        <label for="cantidad-mezcla">Cantidad:</label>
+                        <input type="number" id="cantidad-mezcla" value="2" min="1">
+                    </div>
+                </div>
+                <button class="btn-eliminar">&times;</button>
+            </div>
+        </div>
+
+        <div class="carrito-resumen">
+            <h3>Resumen del Pedido</h3>
+            <div class="resumen-detalle">
+                <p>Subtotal:</p>
+                <p>$32.50</p>
+            </div>
+            <div class="resumen-detalle">
+                <p>Envío:</p>
+                <p>Gratis</p>
+            </div>
+            <div class="resumen-total">
+                <h4>Total:</h4>
+                <h4>$32.50</h4>
+            </div>
+            <button class="btn-finalizar">Finalizar Compra</button>
+        </div>
+    </div>
+    <button class="btn-regresar"><a href="/productos">volver a productos</a></button>
+</section>

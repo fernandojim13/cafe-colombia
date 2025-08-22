@@ -1,0 +1,3 @@
+# .gitignore en /backend/
+/node_modules
+.env

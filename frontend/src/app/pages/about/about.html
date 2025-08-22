@@ -1,0 +1,56 @@
+<main class="container my-4">
+    <section id="info-autores" class="mb-5">
+        <h2 class="text-center mb-4">Nuestro Equipo</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 text-center">
+                    <img src="/img/agricultor.jpg" class="card-img-top rounded-circle mx-auto mt-3"
+                        style="width: 150px; height: 150px; object-fit: cover;" alt="Autor 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Carlos Malagon</h5>
+                        <p class="card-text">Agricultor con mas de 10 años de experiencia en el sector cafetero,
+                            apasionado por producir el cafe de mas alta calidad.</p>
+                        <a href="https://www.facebook.com/fernando.jimenez.924045" target="_blank"
+                            class="btn btn-outline-primary btn-sm">Encuentrame en FACEBOOK</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 text-center">
+                    <img src="/img/ingeniero.jpg" class="card-img-top rounded-circle mx-auto mt-3"
+                        style="width: 150px; height: 150px; object-fit: cover;" alt="Autor 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Elkin collazos</h5>
+                        <p class="card-text">Ingeniero agronomo especializado en degustacion de grano de cafe 
+                            para la seleccion del mejor producto a tu disposicion.</p>
+                        <a href="https://www.facebook.com/elkin.collazos.1"
+                            class="btn btn-outline-primary btn-sm">Encuentrame en FACEBOOK</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formulario-contacto">
+        <h2 class="text-center mb-4">Contáctanos</h2>
+        <form id="contactForm">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre Completo</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" required>
+                <div class="invalid-feedback">Por favor ingresa tu nombre.</div>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+                <div class="invalid-feedback">Por favor ingresa un correo electrónico válido.</div>
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Tu Mensaje</label>
+                <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+                <div class="invalid-feedback">Por favor ingresa tu mensaje.</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+        </form>
+        <div id="form-message" class="mt-3"></div>
+    </section>
+</main>
